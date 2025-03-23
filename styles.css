@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+body{
+	margin:0px;
+	box-sizing:border-box;
+	width:1100px;
+	background-color:greenyellow;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.imageContainer{
+	height:200px;
+	margin:5px;
+}
+table{
+	border:1px solid black;
+	text-align:justify;
+}
+.image{
+	height:200px
+}
+.table-col{
+	width:200px;
+	padding:6px;
+}
+td{
+	border:1px solid black;
+}
+.image-col-1{
+	height:100px;
+	width:150px;
+	object-fit:cover;
+}
+.table-mid-column{
+	width:600px;
+}
